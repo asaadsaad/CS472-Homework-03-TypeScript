@@ -32,18 +32,18 @@ Use the spread operator to concatenate them into a single array.
 ## Exercise 06
 Create a TypeScript function that takes an object with the following properties: `name` (string), `age` (number), and `isStudent` (boolean). The function should return a string describing the person as per the example below (use Template literals).
 ```typescript
-interface Person {
+interface Dog {
     name: string;
     age: number;
-    isStudent: boolean;
+    isGoodBoy: boolean;
 }
 
-function describePerson(person: Person): string {
+function describeDog(dog: Dog): string {
     // Your code here
 }
 
-const person: Person = { name: "Alice", age: 25, isStudent: true };
-console.log(describePerson(person)); // Output: "Alice is 25 years old and is a student."
+const theo: Dog = { name: "Theo", age: 3, isGoodBoy: true };
+console.log(describeDog(theo)); // Output: "Theo is 3 years old and is a good boy."
 ```
 ## Exercise 07
 Create two TypeScript modules: one module contains 4 methods that calculate add, subtract, multiply, and divide between two numbers passed as parameters. The other module will import the calculator methods to test and print out the results. 
